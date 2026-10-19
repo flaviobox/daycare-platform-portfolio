@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" data-i18n-content="meta.description" content="Daycare Platform: an evidence-backed cloud engineering portfolio. AWS architecture, security, CI/CD, Terraform, and measured staging results.">
+  <meta name="theme-color" content="#080f1e">
+  <title data-i18n="meta.title">Daycare Platform | Cloud Engineering Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a data-i18n="skip" class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" data-i18n-aria-label="brand.home" aria-label="Daycare Platform, back to top"><span class="brand-mark" aria-hidden="true">DP<span></span></span><span>Daycare Platform<small><span data-i18n="brand.subtitle">ENGINEERING PORTFOLIO</span></small></span></a>
+      <nav class="main-nav" data-i18n-aria-label="nav.label" aria-label="Main navigation">
+        <a data-i18n="nav.project" href="#project">Project</a>
+        <a data-i18n="nav.architecture" href="#architecture">Architecture</a>
+        <a data-i18n="nav.evidence" href="#results">Evidence</a>
+        <a data-i18n="nav.contact" href="#contact">Contact</a>
+      </nav>
+      <div class="language-switch" role="group" data-i18n-aria-label="language.label" aria-label="Language">
+        <button type="button" lang="en" data-language="en" aria-pressed="true" aria-label="English">EN</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" lang="es" data-language="es" aria-pressed="false" aria-label="Español">ES</button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <canvas class="hero-blueprint" aria-hidden="true"></canvas>
+      <div class="container hero-content">
+        <p class="eyebrow hero-eyebrow"><span class="line-marker" aria-hidden="true"></span><span data-i18n="hero.eyebrow">CLOUD ENGINEERING / AWS JOURNEY A–N</span></p>
+        <h1 id="hero-title"><span data-i18n="hero.title1">Cloud. Infrastructure.</span><br><span data-i18n="hero.title2" class="accent-text">Security.</span></h1>
+        <p data-i18n="hero.lede" class="hero-lede">Architecture built with intent. Decisions backed by evidence.</p>
+        <p data-i18n="hero.description" class="hero-description">From a local application to a private AWS staging architecture: the engineering decisions, security boundaries, and measured results behind Daycare Platform.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#project"><span data-i18n="hero.project">Explore the project</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#architecture"><span data-i18n="hero.architecture">See the architecture</span><span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-foot">
+          <p><span class="small-square" aria-hidden="true"></span><span data-i18n="hero.status">COMPLETED JOURNEY · VALIDATED STAGING</span></p>
+          <p data-i18n="hero.boundary">Cost-optimized staging. Production HA remains future work.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div><p class="eyebrow"><span class="section-number" aria-hidden="true">01</span><span data-i18n="about.eyebrow">About</span></p><h2 data-i18n="about.title" id="about-title">Building systems I can explain.</h2></div>
+        <div class="about-copy">
+          <p data-i18n="about.body" class="large-copy">My focus is cloud infrastructure, networking, and security, demonstrated through the Daycare Platform project. I built and validated an AWS staging environment, connected the application to private services, and documented the reasoning behind each major decision.</p>
+          <p data-i18n="about.principle" class="muted">A working deployment is the starting point. Understanding its failure modes, costs, and limits is the engineering work.</p>
+          <div class="principles"><span><span data-i18n="about.p1">Explicit boundaries</span></span><span><span data-i18n="about.p2">Measured trade-offs</span></span><span><span data-i18n="about.p3">Traceable evidence</span></span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow"><span class="section-number" aria-hidden="true">02</span><span data-i18n="skills.eyebrow">Technical skills</span></p><h2 data-i18n="skills.title" id="skills-title">Depth across the delivery path.</h2><p data-i18n="skills.intro">Technologies applied in this project, organized by engineering responsibility.</p></div>
+        <div class="skills-grid"><article class="skill"><div class="skill-index" aria-hidden="true">01</div><div><p data-i18n="skill.cloud.name" class="eyebrow">Cloud &amp; networking</p><h3 data-i18n="skill.cloud.title">Design the path. Define the boundary.</h3><p data-i18n="skill.cloud.body">A multi-tier VPC, private application and data subnets, HTTPS ingress, and private AWS service access.</p><ul class="tech-list"><li>AWS VPC</li><li>ECS / Fargate</li><li>ALB</li><li>CloudFront</li><li>S3 / OAC</li></ul></div></article>
+<article class="skill"><div class="skill-index" aria-hidden="true">02</div><div><p data-i18n="skill.security.name" class="eyebrow">Security &amp; identity</p><h3 data-i18n="skill.security.title">Make access explicit.</h3><p data-i18n="skill.security.body">Federated deployment identity, scoped permissions, runtime secret injection, and session/CSRF protection.</p><ul class="tech-list"><li>IAM / OIDC</li><li>Secrets Manager</li><li>ACM</li><li>Security Groups</li><li>WAF · Count</li></ul></div></article>
+<article class="skill"><div class="skill-index" aria-hidden="true">03</div><div><p data-i18n="skill.delivery.name" class="eyebrow">Infrastructure &amp; delivery</p><h3 data-i18n="skill.delivery.title">Make releases traceable.</h3><p data-i18n="skill.delivery.body">Containers, immutable artifacts, a test-gated release path, and deliberate Terraform ownership.</p><ul class="tech-list"><li>Docker</li><li>GitHub Actions</li><li>Amazon ECR</li><li>Terraform</li><li>Git</li></ul></div></article>
+<article class="skill"><div class="skill-index" aria-hidden="true">04</div><div><p data-i18n="skill.operations.name" class="eyebrow">Operations &amp; application</p><h3 data-i18n="skill.operations.title">Measure the system you built.</h3><p data-i18n="skill.operations.body">Operational telemetry and authenticated load tests, grounded in a tenant-aware web application.</p><ul class="tech-list"><li>CloudWatch / SNS</li><li>k6</li><li>Django / DRF</li><li>React / TypeScript</li><li>PostgreSQL</li></ul></div></article></div>
+      </div>
+    </section>
+    <section class="section project-section" id="project" aria-labelledby="project-title">
+      <div class="container">
+        <p class="eyebrow"><span class="section-number" aria-hidden="true">03</span><span data-i18n="project.eyebrow">Featured project</span></p>
+        <div class="project-heading"><div><p class="project-kicker">AWS JOURNEY A–N</p><h2 id="project-title">Daycare Platform<span class="title-period" aria-hidden="true">.</span></h2></div><span class="status-tag"><span data-i18n="project.badge">Completed &amp; merged</span></span></div>
+        <div class="project-grid">
+          <div><p data-i18n="project.body" class="large-copy">A multi-tenant daycare operations application became the foundation for a complete cloud engineering journey: from Docker to private AWS runtime, secure delivery, observability, IaC, and performance analysis.</p><p data-i18n="project.scope" class="muted">The product covers attendance, daily notes, classrooms, messaging, inventory, and basic expenses. Organization membership and role-aware access define the application’s tenant boundaries.</p><a class="text-link" href="#challenges"><span data-i18n="project.link">Read the engineering challenges</span><span aria-hidden="true">↗</span></a></div>
+          <dl class="project-facts"><div><dt><span data-i18n="project.runtime">Runtime</span></dt><dd>ECS / Fargate + RDS PostgreSQL</dd></div><div><dt><span data-i18n="project.frontend">Frontend delivery</span></dt><dd>CloudFront + S3 / OAC</dd></div><div><dt><span data-i18n="project.release">Release identity</span></dt><dd>GitHub Actions + AWS OIDC</dd></div><div><dt><span data-i18n="project.environment">Environment</span></dt><dd><span data-i18n="project.environmentValue">Staging · one task · Single-AZ database</span></dd></div></dl>
+        </div>
+        <ol class="journey-strip"><li><span>A–D</span><span data-i18n="journey.foundation">Application &amp; containers</span></li><li><span>E–I</span><span data-i18n="journey.platform">Network &amp; cloud runtime</span></li><li><span>J–L</span><span data-i18n="journey.operations">Observability, delivery &amp; IaC</span></li><li><span>M–N</span><span data-i18n="journey.evidence">Measurement &amp; closure</span></li></ol>
+      </div>
+    </section>
+    <section class="section architecture-section" id="architecture" aria-labelledby="architecture-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow"><span class="section-number" aria-hidden="true">04</span><span data-i18n="architecture.eyebrow">Architecture</span></p><h2 data-i18n="architecture.title" id="architecture-title">Public entry. Private execution.</h2><p data-i18n="architecture.intro">One browser origin, two CloudFront paths, and explicit boundaries between edge, application, and data.</p></div>
+        <figure class="architecture-map" aria-labelledby="architecture-caption">
+          <figcaption id="architecture-caption"><span class="map-label"><span data-i18n="architecture.caption">STAGING / HIGH-LEVEL REQUEST FLOW</span></span><span class="map-region"><span data-i18n="architecture.region">Primary region: us-east-2</span></span></figcaption>
+          <div class="entry-flow"><div class="diagram-node browser-node"><span class="node-symbol" aria-hidden="true">01</span><div><strong><span data-i18n="architecture.browser">Browser</span></strong><small>HTTPS</small></div></div><div class="horizontal-connector" aria-hidden="true"><span>→</span></div><div class="diagram-node edge-node"><span class="node-symbol" aria-hidden="true">02</span><div><strong>CloudFront</strong><small><span data-i18n="architecture.edge">ACM TLS · WAF in Count mode</span></small></div></div></div>
+          <div class="branch-split">
+            <div class="static-route"><div class="route-caption"><code>/*</code><span data-i18n="architecture.staticRoute">Default static behavior</span></div><div class="diagram-node"><span class="node-symbol" aria-hidden="true">S3</span><div><strong><span data-i18n="architecture.s3">Private S3 origin</span></strong><small><span data-i18n="architecture.s3Detail">OAC · encryption · versioning</span></small></div></div><p class="diagram-note"><span data-i18n="architecture.s3Note">Direct object access denied; CloudFront delivery validated.</span></p></div>
+            <div class="api-route"><div class="route-caption"><code>/api/*</code><span data-i18n="architecture.apiRoute">Uncached HTTPS to API origin</span></div><div class="vpc-boundary"><div class="boundary-label"><span data-i18n="architecture.vpc">VPC · subnets across two Availability Zones</span></div><div class="runtime-flow">
+              <div class="runtime-hop"><span class="tier-label"><span data-i18n="architecture.public">PUBLIC INGRESS</span></span><div class="diagram-node"><strong>ALB</strong><small><span data-i18n="architecture.alb">ACM · TLS termination</span></small></div></div>
+              <div class="flow-connector" aria-hidden="true">→</div>
+              <div class="runtime-hop"><span class="tier-label"><span data-i18n="architecture.privateApp">PRIVATE APPLICATION</span></span><div class="diagram-node focus-node"><strong>ECS / Fargate</strong><small>Django / Gunicorn</small></div></div>
+              <div class="flow-connector" aria-hidden="true">→</div>
+              <div class="runtime-hop"><span class="tier-label"><span data-i18n="architecture.privateData">PRIVATE DATABASE</span></span><div class="diagram-node"><strong>RDS PostgreSQL</strong><small><span data-i18n="architecture.rds">Encrypted · Single-AZ</span></small></div></div>
+            </div><p class="sg-note"><span data-i18n="architecture.sg">Security groups restrict ALB → ECS → RDS. The ALB-to-task hop uses internal HTTP.</span></p></div></div>
+          </div>
+          <div class="support-flow"><div><strong><span data-i18n="architecture.privateAccess">Private service access</span></strong><span><span data-i18n="architecture.endpoints">VPC endpoints · ECR, S3, Logs, Secrets Manager</span></span></div><div><strong><span data-i18n="architecture.telemetry">Operational signals</span></strong><span><span data-i18n="architecture.monitoring">CloudWatch logs &amp; alarms → SNS notifications</span></span></div></div>
+        </figure>
+        <div class="architecture-decisions"><article><span>01 / OAC</span><h3 data-i18n="architecture.d1.title">Same-origin, private assets</h3><p data-i18n="architecture.d1.body">CloudFront keeps browser requests same-origin. Session cookies and CSRF remain part of Django’s authentication flow.</p></article><article><span>02 / VPC</span><h3 data-i18n="architecture.d2.title">Private access has a cost</h3><p data-i18n="architecture.d2.body">Required AWS paths were validated before removing NAT. Interface endpoint hourly costs still matter at this small scale.</p></article><article><span>03 / HA</span><h3 data-i18n="architecture.d3.title">A foundation, with limits</h3><p data-i18n="architecture.d3.body">Two-AZ networking does not make one task and Single-AZ RDS highly available. Multi-replica capacity and recovery tests remain future work.</p></article></div>
+      </div>
+    </section>
+    <section class="section challenges-section" id="challenges" aria-labelledby="challenges-title">
+      <div class="container"><div class="section-heading"><p class="eyebrow"><span class="section-number" aria-hidden="true">05</span><span data-i18n="challenges.eyebrow">Engineering challenges</span></p><h2 data-i18n="challenges.title" id="challenges-title">The interesting work happens at the edges.</h2><p data-i18n="challenges.intro">Three documented incidents where observation changed the next decision.</p></div>
+      <div class="challenge-list"><details class="challenge" open><summary><span class="challenge-number">01</span><span><small data-i18n="challenge.01.phase">PHASE K</small><span data-i18n="challenge.01.title" class="challenge-title">Permissions that passed static review</span></span><span class="expand-mark" aria-hidden="true"></span></summary><div class="challenge-body"><div><h3 data-i18n="challenge.problem">Problem</h3><p data-i18n="challenge.01.problem">CI and OIDC succeeded, but the first image delivery attempt failed.</p></div><div><h3 data-i18n="challenge.diagnosis">Diagnosis</h3><p data-i18n="challenge.01.diagnosis">Runtime exposed a missing repository-scoped ecr:BatchGetImage permission. Static policy validation had not proven deployment completeness.</p></div><div><h3 data-i18n="challenge.decision">Decision &amp; result</h3><p data-i18n="challenge.01.solution">Added only the missing repository permission. The rerun reused the existing immutable SHA image and completed the ECS rollout.</p></div><p class="lesson"><span aria-hidden="true">↳</span><span data-i18n="challenge.01.lesson">Static analysis and runtime validation are complementary.</span></p></div></details>
+<details class="challenge"><summary><span class="challenge-number">02</span><span><small data-i18n="challenge.02.phase">PHASE M</small><span data-i18n="challenge.02.title" class="challenge-title">More workers, worse performance</span></span><span class="expand-mark" aria-hidden="true"></span></summary><div class="challenge-body"><div><h3 data-i18n="challenge.problem">Problem</h3><p data-i18n="challenge.02.problem">Would a second synchronous Gunicorn worker improve the small Fargate task?</p></div><div><h3 data-i18n="challenge.diagnosis">Diagnosis</h3><p data-i18n="challenge.02.diagnosis">On the unchanged 0.25-vCPU task, two workers drove CPU to approximately 100% and operational p95 to approximately 5.66 seconds.</p></div><div><h3 data-i18n="challenge.decision">Decision &amp; result</h3><p data-i18n="challenge.02.solution">Rejected the experiment and restored one worker. More CPU and/or replicas need measurement before increasing concurrency.</p></div><p class="lesson"><span aria-hidden="true">↳</span><span data-i18n="challenge.02.lesson">Concurrency has to fit the available CPU budget.</span></p></div></details>
+<details class="challenge"><summary><span class="challenge-number">03</span><span><small data-i18n="challenge.03.phase">PHASE L</small><span data-i18n="challenge.03.title" class="challenge-title">Sensitive inputs, visible plan output</span></span><span class="expand-mark" aria-hidden="true"></span></summary><div class="challenge-body"><div><h3 data-i18n="challenge.problem">Problem</h3><p data-i18n="challenge.03.problem">A sensitive OIDC input appeared in the derived IAM trust-policy plan output.</p></div><div><h3 data-i18n="challenge.diagnosis">Diagnosis</h3><p data-i18n="challenge.03.diagnosis">Sensitivity did not propagate to the final policy expression. Marking an input sensitive alone was insufficient.</p></div><div><h3 data-i18n="challenge.decision">Decision &amp; result</h3><p data-i18n="challenge.03.solution">Marked the final expression sensitive and verified semantic equivalence and no-op convergence. Kept remote state private and encrypted.</p></div><p class="lesson"><span aria-hidden="true">↳</span><span data-i18n="challenge.03.lesson">Display masking does not remove sensitive data from state.</span></p></div></details></div>
+      </div>
+    </section>
+    <section class="section results-section" id="results" aria-labelledby="results-title">
+      <div class="container"><div class="section-heading"><p class="eyebrow"><span class="section-number" aria-hidden="true">06</span><span data-i18n="results.eyebrow">Validation &amp; results</span></p><h2 data-i18n="results.title" id="results-title">Evidence before extrapolation.</h2><p data-i18n="results.intro">Historical staging evidence recorded in the completed AWS Journey. These are measured observations, not a live service status or an independent certification.</p></div>
+        <div class="result-metrics"><div><strong>15 <small>VUs</small></strong><span data-i18n="results.vus">Within the defined p95 target</span></div><div><strong>~928 <small>ms</small></strong><span data-i18n="results.p95">Operational p95 at 15 VUs</span></div><div><strong>0<small>%</small></strong><span data-i18n="results.errors">HTTP failures in the measured runs</span></div><div><strong>5 <small><span data-i18n="results.alarmsUnit">alarms</span></small></strong><span data-i18n="results.alarms">With a validated email notification path</span></div></div>
+        <div class="measurement-grid">
+          <div><h3><span data-i18n="results.workload">Authenticated, read-heavy workload</span></h3><p data-i18n="results.method">k6 retained Django sessions with one login per virtual user and realistic think time. Operational latency excludes CSRF bootstrap and login. The target was p95 &lt; 1.5 seconds on a 0.25-vCPU / 512-MiB task.</p><p data-i18n="results.limit" class="boundary-note">A virtual user is not a tenant or a registered-user capacity claim. At 20 and 25 VUs, the application stayed functional while the latency target was missed.</p></div>
+          <div class="measurement-table"><table><caption><span data-i18n="results.caption">Phase M · operational p95</span></caption><thead><tr><th scope="col">VUs</th><th scope="col">p95</th><th scope="col"><span data-i18n="results.target">Target</span></th></tr></thead><tbody><tr><th scope="row">10</th><td>~576 ms</td><td class="met"><span data-i18n="results.met">Met</span></td></tr><tr><th scope="row">15</th><td>~928 ms</td><td class="met"><span data-i18n="results.met">Met</span></td></tr><tr><th scope="row">20</th><td><span data-i18n="results.p20">~1.56 s</span></td><td class="missed"><span data-i18n="results.missed">Not met</span></td></tr><tr><th scope="row">25</th><td><span data-i18n="results.p25">~1.89 s</span></td><td class="missed"><span data-i18n="results.missed">Not met</span></td></tr></tbody></table></div>
+        </div>
+        <div class="evidence-register">
+          <article><span class="evidence-badge"><span data-i18n="evidence.implemented">IMPLEMENTED</span></span><h3 data-i18n="evidence.implementedTitle">A controlled delivery foundation</h3><p data-i18n="evidence.implementedBody">Private ECS/RDS, S3/OAC, CI with ephemeral PostgreSQL, OIDC, immutable SHA images, migration-gated rollout, logs, alarms, and selected Terraform imports.</p></article>
+          <article><span class="evidence-badge validated"><span data-i18n="evidence.validated">VALIDATED</span></span><h3 data-i18n="evidence.validatedTitle">Positive and negative runtime evidence</h3><p data-i18n="evidence.validatedBody">Django tests and checks, successful migrations, removed/restored network access, S3 denial, session/CSRF behavior, denied unrelated IAM operations, ECS rollout, and Terraform no-op convergence.</p></article>
+          <article><span class="evidence-badge documented"><span data-i18n="evidence.documented">DOCUMENTED</span></span><h3 data-i18n="evidence.documentedTitle">Costs, recovery, and ownership</h3><p data-i18n="evidence.documentedBody">Cost analysis separated gross usage from credits. Backup &amp; Restore, provisional recovery objectives, and IaC ownership boundaries were documented; full-account Terraform ownership was never claimed.</p></article>
+          <article><span class="evidence-badge future"><span data-i18n="evidence.future">DEFERRED / FUTURE WORK</span></span><h3 data-i18n="evidence.futureTitle">Production requires more validation</h3><p data-i18n="evidence.futureBody">Multi-task HA, RDS Multi-AZ, tested restore and measured RTO, WAF enforcement and tuning, secret rotation, production SLOs, frontend release automation, and stronger supply-chain attestations.</p></article>
+        </div>
+        <p data-i18n="results.evidenceNote" class="evidence-note">Evidence basis: Phase N portfolio closure and the recorded Phase K, L, and M findings. Operational logs, account data, and internal configuration remain private. WAF Count is monitoring, not blocking; backup availability is not a tested restore.</p>
+      </div>
+    </section>
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-grid"><div><p class="eyebrow"><span class="section-number" aria-hidden="true">07</span><span data-i18n="contact.eyebrow">Contact / GitHub</span></p><h2 data-i18n="contact.title" id="contact-title">Let’s talk architecture.</h2><p data-i18n="contact.body">For a closer look at the engineering behind this project, find my professional profile on GitHub.</p></div><a class="github-link" href="https://github.com/flaviobox" rel="noreferrer" data-i18n-aria-label="contact.githubLabel" aria-label="Visit flaviobox on GitHub"><span><small><span data-i18n="contact.profile">GITHUB PROFILE</span></small><strong>@flaviobox</strong></span><span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><span>Daycare Platform <span aria-hidden="true">/</span> <span data-i18n="footer.name">Engineering portfolio</span></span><span data-i18n="footer.note">Sanitized case study · AWS Journey A–N</span><a href="#top" data-i18n-aria-label="footer.topLabel" aria-label="Back to top">↑</a></div></footer>
+  <p class="sr-only" id="language-announcement" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>
