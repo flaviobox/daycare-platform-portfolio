@@ -46,11 +46,4 @@ change its visibility.
 6. Include only the six allowlisted paths, never a whole private folder or its
    Git history. Confirm the deployed Pages site only after approved publication.
 
-## Revision Local / Local Review
 
-Este es un portafolio publico independiente. El selector EN / ES traduce el
-sitio sin recarga y guarda la preferencia solo en el navegador. Abrir
-`index.html` no requiere servidor ni instalar paquetes. El repositorio de la
-aplicacion permanece privado y no forma parte de esta publicacion. Antes de
-cada actualizacion, revisar los seis archivos de la allowlist, repetir la
-auditoria y revisar el diff publico completo.
