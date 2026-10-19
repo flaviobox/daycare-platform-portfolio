@@ -1,16 +1,13 @@
 # Daycare Platform Cloud Engineering Portfolio
 
-This independent folder contains a local, sanitized portfolio preview for
+This independent public repository contains the sanitized portfolio site for
 Daycare Platform. It is a recruiter-facing case study derived from the completed
 AWS Journey A-N in a separate private application repository.
 
-Publication is NOT authorized yet. No public repository or Pages deployment is
-part of this preview update.
-
 ## Public Scope
 
-Only the six files listed in `PUBLICATION_ALLOWLIST.md` are candidates for a
-future, explicitly approved publication. The application source, Terraform configuration, CI/CD workflows,
+Only the six files listed in `PUBLICATION_ALLOWLIST.md` are approved for this
+public repository. The application source, Terraform configuration, CI/CD workflows,
 AWS identifiers, credentials, endpoints, internal documentation, and Git
 history of the private project are intentionally excluded.
 
@@ -32,8 +29,8 @@ offscreen. No AWS service or private application endpoint is contacted.
 
 ## Publication
 
-The proposed target, only after explicit operator approval, is GitHub Pages
-from the root of the `main` branch in a separate public repository. Relative
+The publication target is GitHub Pages from the root of the `main` branch in
+this separate public repository. Relative
 asset paths support `/daycare-platform-portfolio/`; section links use local
 anchors, not application routes. Do not publish the private repository or
 change its visibility.
@@ -51,9 +48,9 @@ change its visibility.
 
 ## Revision Local / Local Review
 
-Esta es una vista previa independiente, todavia NO autorizada para publicacion.
-El selector EN / ES traduce el sitio sin recarga y guarda la preferencia solo
-en el navegador. Abrir `index.html` no requiere servidor ni instalar paquetes.
-El repositorio de la aplicacion permanece privado y no forma parte de esta
-publicacion. Antes de publicar, revisar los seis archivos de la allowlist,
-repetir la auditoria y obtener autorizacion expresa.
+Este es un portafolio publico independiente. El selector EN / ES traduce el
+sitio sin recarga y guarda la preferencia solo en el navegador. Abrir
+`index.html` no requiere servidor ni instalar paquetes. El repositorio de la
+aplicacion permanece privado y no forma parte de esta publicacion. Antes de
+cada actualizacion, revisar los seis archivos de la allowlist, repetir la
+auditoria y revisar el diff publico completo.

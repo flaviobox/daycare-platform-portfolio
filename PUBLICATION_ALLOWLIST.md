@@ -1,7 +1,6 @@
 # Publication Allowlist
 
-Publication is NOT authorized yet. Only these six paths are candidates for
-public publication after content review and explicit operator approval:
+Only these six paths are authorized for public publication:
 
 - `.nojekyll`
 - `index.html`
@@ -48,5 +47,5 @@ Before every public update:
 6. Confirm assets are relative and local, with no external scripts, fonts,
    analytics, forms, or API calls. The only allowed external destination is
    the professional profile link: `https://github.com/flaviobox`.
-7. Obtain explicit authorization before creating a public repository or
-   uploading any content. A clean scan is not publication authorization.
+7. Review the complete public diff before each update. A clean scan does not
+   authorize adding paths outside this allowlist.
